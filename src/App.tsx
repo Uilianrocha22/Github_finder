@@ -1,10 +1,11 @@
 import { Outlet } from "react-router-dom";
+import style from "./App.module.scss";
 
 function App() {
   return (
     <>
-      <div>
-        <h1>Github_finder</h1>
+      <div className={style.app}>
+        <h1>Github Finder</h1>
         <Outlet />
       </div>
     </>
